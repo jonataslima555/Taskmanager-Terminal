@@ -62,7 +62,7 @@ def menu():
         view_db('text')
         add_user_text = int(input('Type Id to edit: '))
         if add_user_text:
-            user = input('Type the edit: ')
+            user = input('Type the edit: ') 
             edit_text(add_user_text, user)
         os.system('cls')
         print('Task add sucess...')
